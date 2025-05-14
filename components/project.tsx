@@ -36,10 +36,7 @@ function Project() {
 <div className="relative w-full space-y-6 max-w-3xl">
 {
   Data.projects.map((project, index) => (
-    <div key={index} data-aos="fade-up"
-    data-aos-duration="200"
-    data-aos-delay="200"
-    data-aos-easing="ease-in-sine" className='sticky top-32'>
+    <div key={index} >
     <ProjectCard
       key={index}
       title={project.title}
