@@ -11,7 +11,7 @@ function Skils() {
         <p className='text-center lg:text-lg text-sm text-gray-200'>Here are some of the skills I have learned.</p>
 
 <div className='flex flex-wrap justify-center lg:flex-row flex-col  gap-5' >
-       {Data.skill.map((val,index)=>( <div data-aos="fade-right"
+       {Data.skill.map((val,index)=>( <div key={index} data-aos="fade-right"
             data-aos-duration="200"
             data-aos-delay="200"
             data-aos-easing="ease-in-sine" className='bg-[#14151D] lg:w-[40%] min-h-[250px] w-full border border-[#0173ca] rounded-lg'>
