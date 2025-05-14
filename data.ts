@@ -67,7 +67,7 @@ projects:[
 ],
 timelineData:[
   {
-    year: '2023',
+    year: '2027',
     title: 'My College',
     institution: 'Muthayammal Engineering College',
    
